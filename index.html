@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="product.css"/>
+
+</head>
+<body>
+
+    <div id="coupon">
+        <img src="Coupon_1000 copy.jpg">
+        <button id="closebutton" onclick="closecoupon();">&times;</button>
+    </div>
+    <div class="header">
+        <div class="icon">
+            <h1>food wood</h1> 
+   
+           
+    </div>
+    <div class="social">
+        <a href="#" target="_blank" class="login">Login</a>
+
+        <a href="#" target="_blank" class="register">create an account</a>
+         
+    </div>
+    </div>
+    <h1 class="heading">Breakfast places in Ahmedabad</h1>
+    <div class="parent"> 
+    <div class="list">
+       <center><h1>filter</h1></center> 
+       <center><h3>cuisine filter</h3></center>
+     <div class="radio">
+       <input type="radio" name="cuision">
+       <label>All</label></div>
+       <div class="radio">
+       <input type="radio" name="cuision">
+       <label>North Indian</label></div>
+       <div class="radio">
+       <input type="radio" name="cuision">
+       <label>South Indian</label></div>
+       <div class="radio">
+       <input type="radio" name="cuision">
+       <label>Chinese</label></div>
+       <div class="radio">
+       <input type="radio" name="cuision">
+       <label>Fast Food</label></div>
+       <div class="radio">
+       <input type="radio" name="cuision">
+       <label>Street Food</label></div>
+       <div class="border">
+           <center><h3 class="costfilter">Cost Filter</h3></center>
+           <div class="radio">
+            <input type="radio" name="Cost">
+            <label>All</label></div>
+            <div class="radio">
+            <input type="radio" name="Cost">
+            <label>100-300</label></div>
+            <div class="radio">
+            <input type="radio" name="Cost">
+            <label>301-500</label></div>
+            <div class="radio">
+            <input type="radio" name="Cost">
+            <label>501-700</label></div>
+            <div class="radio">
+            <input type="radio" name="Cost">
+            <label>701-900</label></div>
+            <div class="radio">
+            <input type="radio" name="Cost">
+            <label>901-1500</label></div>
+       </div>
+
+    </div>
+
+    <div class="right">
+    <div class="card">
+        <img src="msg777000-18011.jpg" class="cardimg"/>
+        <div class="internal">
+        <h1 class="fooditem">Domino's Pizza</h1>
+        <p class="address">shop no. 3,4 and 5, ground floor 4d square mall, moje, motera, ahmedabad</p>
+        
+        <p class="quality">very good</p>
+        <p class="price">&#8377:400</p>
+        
+        <div class="topbutton">
+            <a href="#" class="blue">Breakfast</a>
+
+            <a href="#" class="green">Lunch</a>
+
+        </div>
+        <div class="bbutton">
+            <a href="#" class="red">North Indian</a>
+
+            <a href="#" class="yellow">Fast Food</a>
+
+        </div>
+        </div>
+    </div>
+    <div class="card">
+        <img src="msg777000-18010.jpg" class="cardimg"/>
+        <div class="internal">
+        <h1 class="fooditem">Paratha House</h1>
+        <p class="address">41, local rd, near maniprabhu school, chandkheda, ahmedabad</p>
+        
+        <p class="quality">very good</p>
+        <p class="price">&#8377:300</p>
+        
+        <div class="topbutton">
+            <a href="#" class="blue">Breakfast</a>
+
+            <a href="#" class="green">Dinner</a>
+
+        </div>
+        <div class="bbutton">
+            <a href="#" class="red">North Indian</a>
+
+            <a href="#" class="yellow">Street Food</a>
+
+        </div>
+        </div>
+    </div>
+    </div>
+</div>
+<script>
+    setTimeout(loadcoupon, 1000);
+            function loadcoupon(){
+                document.getElementById('coupon').style.display="block";
+            }
+            function closecoupon(){
+                document.getElementById('coupon').style.display="none";
+            }
+</script>
+</body>
+</html>
+    
